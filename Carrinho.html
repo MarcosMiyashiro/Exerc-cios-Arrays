@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+</head>
+
+<body>
+
+    <h1>Carrinho de Compras</h1>
+
+    <p>
+        <label for="produto">Produto:</label>
+        <select id="produto">
+            <option value="camiseta">camiseta</option>
+            <option value="calça">calça</option>
+            <option value="sapato">sapato</option>
+            <option value="jaqueta">jaqueta</option>
+        </select>
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" min="1" value="1">
+        <button onclick="adicionarProdutoAoCarrinho()">Adicionar ao Carrinho</button>
+    </p>
+
+    <p id="valorTotal"></p>
+
+    <script src="Carrinho.js"></script>
+</body>
+
+</html>
