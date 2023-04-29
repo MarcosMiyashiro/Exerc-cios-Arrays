@@ -1,4 +1,4 @@
-Exercícios utilizando Arrays
+Exercícios utilizando o comando Arrays
 
 Você está desenvolvendo um jogo de cartas e precisa criar um array com as cartas do baralho. Cada carta deve ser representada por um objeto contendo o valor e o naipe. Crie uma função que monte o array com todas as 52 cartas e outra função que embaralhe as cartas. E retorne no console uma carta aleatória.
 
